@@ -27,9 +27,8 @@ public class DemoConsolaApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		service = new PersonaServicelmpl();
-		System.out.println("some code");
-		LOG.info("ALGUN MENSAJE");
-		LOG.warn("ALGUN MENSAJE WARNING");
+		
+		LOG.info("anonimo");
 		
 	}
 
