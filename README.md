@@ -1,7 +1,9 @@
 # Temario Junit tutorial.
-How to Download and Installation JUnit
+
  
- - JUnit Test framework_
+ 
+  - How to Download and Installation JUnit
+  - JUnit Test framework
  	- JUnit Annotations & API
  	- Junit Assert
  	- Create JUnit Test Suite
