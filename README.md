@@ -96,4 +96,22 @@ public class Main {
         
     }
 }
+# Numero fibonacci
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) throws Exception {
+        int a=0;
+        int b=1;
+        int res =1;
+        
+        for(int i =0;i<=10;i++){
+            b = res;
+            res = a+b;
+            a=b;
+            System.out.println("el numero fibonacci es "+ res +" posicion: "+ (i+2) );
+            
+            
+        }
+    }
+}
