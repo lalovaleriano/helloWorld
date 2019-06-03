@@ -115,3 +115,22 @@ public class Main {
         }
     }
 }
+
+# Suma de numeros del 1-100
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        int res=0;
+        
+        for(int i =1;i<=100;i++){
+            
+            res = i+res;
+            System.out.println("suma de numeros de 1-100: "  + "numero de iteracion: " + i + " " +res  );
+            
+            
+        }
+    }
+}
+
