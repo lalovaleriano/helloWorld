@@ -73,4 +73,27 @@ public class Main {
     }
 
 }
+# El factorial de un numero
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Main f = new Main();
+        f.fibo();
+        
+        
+    }
+    
+    public void fibo(){
+        int num=4;
+        int temp =1;
+        
+        for (int i = 1; i<=num ; i++){
+            temp = i * temp;
+        }
+        System.out.println("el factorial de "+ num +" es: "+temp);
+        
+    }
+}
 
