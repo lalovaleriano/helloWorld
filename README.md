@@ -14,8 +14,8 @@
 
 
 
-#Ordenamiento de un arreglo de mayor a menor y de menor a mayor 
-#usando el metodo de burbuja
+# Ordenamiento de un arreglo de mayor a menor y de menor a mayor 
+# usando el metodo de burbuja
 
 import java.util.*;
 
