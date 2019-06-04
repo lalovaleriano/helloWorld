@@ -182,4 +182,20 @@ public class Main {
     }
 }
 ~~~
+# multiplos de 3
+~~~
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) throws Exception {
+     int num1 = 36;
+     while (num1 >=0){
+        if((num1%3) == 0){
+             System.out.println("numeros multiplos de 3:"+ num1);
+        }
+        
+         num1--;
+     }
+    }
+    }
+~~~
