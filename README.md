@@ -159,4 +159,27 @@ public class Main {
      
     }
 }
+# Hacer un algoritmo que imprima todos los números naturales que hay desde la unidad hasta un número introducido   por teclado
+~~~
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+
+        int num1= 58;
+        int res =0;
+        
+        
+        while(num1 >= 0){
+            
+            res +=num1;
+            num1--;
+            
+        }
+        System.out.println("la suma de los numeros naturales es " + res);
+        
+        
+    }
+}
+~~~
 
