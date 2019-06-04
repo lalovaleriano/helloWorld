@@ -133,4 +133,30 @@ public class Main {
         }
     }
 }
+# 6 Hacer un algoritmo que imprima los números impares desde el 100 hasta la unidad y que calcule su suma
+## suma de numeros impares del 100 al 1
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+     
+     int num = 100;
+     int res=0;
+        
+        while(num >=1){
+            
+            if ((num%2) != 0){
+                System.out.println("numero impar" + num);
+               res +=num;
+              
+                
+            }
+            num--;
+               //System.out.println("la suma total es:paso 2 " + res);
+        }
+        System.out.println("la suma total es  2  : " + res);
+        
+     
+    }
+}
 
