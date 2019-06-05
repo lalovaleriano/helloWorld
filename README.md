@@ -199,3 +199,35 @@ public class Main {
     }
     }
 ~~~
+# multipos de 5 y suma de los multiplos de 1-500
+~~~
+import java.util.*;
+
+public class Main {
+        int num1 =0;
+        int num2= 0;
+    public static void main(String[] args) throws Exception {
+        //Hacer un algoritmo que imprima y cuente los múltiplos de 5
+
+        //que hay entre 1 y 500
+        Main m1 = new Main();
+        m1.multiplos();
+        
+        
+        
+    }
+    
+    
+    public void multiplos(){
+        for(int i =1; i<=500;i++){
+            
+            if( (i%5) == 0 ){
+                num2 = num2 + i;
+                num1++;
+            }
+        }
+        System.out.println("total multiplos de 5: " + num1 + "suma total de esos numeros multiplos: " + num2);
+        
+    }
+}
+~~~
