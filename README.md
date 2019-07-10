@@ -231,3 +231,28 @@ public class Main {
     }
 }
 ~~~
+
+
+# como hacer un link de un ejecutable en ubuntu 
+## ejemplo
+
+ejecutable en ubuntu --->  sudo gedit /usr/share/applications/nombreprograma.desktop
+
+[Desktop Entry]
+Name=Nombre del programa
+Comment=Comentario sobre el programa
+Exec=/home/usuario/carpetaPrograma/bin/programa.sh
+Icon=/home/usuario/Images/iconoPrograma
+Terminal=false
+Type=Application
+
+
+ejemplo:
+
+[Desktop Entry]
+Name=Android Studio
+Comment=IDE Android Studio
+Exec=/home/javierlight/Android-Studio-IDE/bin/studio.sh
+Icon=/home/usuario/Imagenes/Iconos/androidstudio.png
+Terminal=false
+Type=Application
